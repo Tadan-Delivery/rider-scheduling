@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "rider-scheduling",
+  "version": "0.1.0",
+  "description": "Tadan Rider Scheduling",
+  "author": "dev@tadan.net",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "build": "tsc --build",
+    "format": "prettier --write 'src/**/*.ts' 'src/**/*.json'",
+    "start": "node build/main.js"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.16",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
+  }
+}
